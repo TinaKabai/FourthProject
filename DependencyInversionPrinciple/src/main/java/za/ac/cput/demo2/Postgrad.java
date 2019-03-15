@@ -1,4 +1,4 @@
-package za.ac.cput;
+package za.ac.cput.demo2;
 
 public class Postgrad extends Student {
 
@@ -6,11 +6,17 @@ public class Postgrad extends Student {
         super(name, studNum, course, loanAmount);
     }
     public double interest(){
-        //post graduates get a 10% discount off their fees
+        //this is a violation
         return getLoanAmount()*0.1;
     }
     public String toString(){
         return super.toString();
     }
-
+}
+class Postgrads implements FeesInterest{
+    //this obeys
+    @Override
+    public double interest() {
+        return 0.1;
+    }
 }

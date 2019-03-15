@@ -8,7 +8,13 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/OpenClosedPrinciple/pom.xml" />
+        <option value="$PROJECT_DIR$/InterfaceSegregationPrinciple/pom.xml" />
         <option value="$PROJECT_DIR$/SingleResponsibilityPrinciple/pom.xml" />
+        <option value="$PROJECT_DIR$/DependencyInversionPrinciple/pom.xml" />
+        <option value="$PROJECT_DIR$/OpenClosePrinciple/pom.xml" />
+        <option value="$PROJECT_DIR$/LiskovSubstitutionPrinciple/pom.xml" />
+        <option value="$PROJECT_DIR$/PrincipleOfLeastKnowledge/pom.xml" />
       </list>
     </option>
   </component>

@@ -10,7 +10,7 @@ public class UndergradTest {
 
         Assert.assertEquals("Student details: \n",45000, ug.getLoanAmount(), 1);
 
-        //
+        //alternative solution to inheritance
         Assert.assertNotEquals(ug, super.toString());
     }
 }
